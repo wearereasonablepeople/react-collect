@@ -11,9 +11,6 @@ relevant to the current view, for example, which can have benefits for
 performance or bundle size. It also encourages a more "componentised"
 architecture.
 
-Usage in Node depends on `--experimental-modules`.
-With older Node versions, use [`esm`][1].
-
 ## Usage
 
 ```js
@@ -42,7 +39,7 @@ render (
 
 ## API
 
-#### <a name="collect" href="https://github.com/wearereasonablepeople/react-collect/blob/v1.0.0/index.mjs#L80">`collect :: Any? -⁠> ReactComponent -⁠> ReactComponent`</a>
+#### <a name="collect" href="https://github.com/wearereasonablepeople/react-collect/blob/v1.0.1/index.mjs#L77">`collect :: Any? -⁠> ReactComponent -⁠> ReactComponent`</a>
 
 Decorates a component with collection capabilities. Decorated components
 must have a [`Collector`](#Collector) as one of their ancestors.
@@ -61,7 +58,7 @@ import {MyComponent} from './my-component';
 export default collect ({message: 'Hello!'}) (MyComponent);
 ```
 
-#### <a name="Collector" href="https://github.com/wearereasonablepeople/react-collect/blob/v1.0.0/index.mjs#L133">`Collector :: ReactComponent`</a>
+#### <a name="Collector" href="https://github.com/wearereasonablepeople/react-collect/blob/v1.0.1/index.mjs#L130">`Collector :: ReactComponent`</a>
 
 This component wraps your tree and collects the items from all child
 components that have been decorated with [`collect`](#collect).
@@ -78,5 +75,3 @@ const onChange = collection => collection.forEach (() => { /* */ });
 
 export default <Collector onChange={onChange}><App /></Collector>;
 ```
-
-[1]: https://github.com/standard-things/esm
