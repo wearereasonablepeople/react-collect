@@ -11,9 +11,6 @@
 //. performance or bundle size. It also encourages a more "componentised"
 //. architecture.
 //.
-//. Usage in Node depends on `--experimental-modules`.
-//. With older Node versions, use [`esm`][1].
-//.
 //. ## Usage
 //.
 //. ```js
@@ -210,5 +207,3 @@ Collector.prototype.render = function() {
     this.props.children
   );
 };
-
-//. [1]: https://github.com/standard-things/esm
