@@ -1,6 +1,7 @@
 # React Collect
 
 [![Build Status](https://travis-ci.com/wearereasonablepeople/react-collect.svg?branch=master)](https://travis-ci.com/wearereasonablepeople/react-collect)
+[![Greenkeeper Enabled](https://badges.greenkeeper.io/wearereasonablepeople/react-collect.svg)](https://greenkeeper.io/)
 
 Allows the top of your render-tree to collect information from elements
 in the sub-tree. Whenever the tree rerenders, the collection of information
@@ -39,7 +40,7 @@ render (
 
 ## API
 
-#### <a name="collect" href="https://github.com/wearereasonablepeople/react-collect/blob/v1.0.1/index.mjs#L77">`collect :: Any? -⁠> ReactComponent -⁠> ReactComponent`</a>
+#### <a name="collect" href="https://github.com/wearereasonablepeople/react-collect/blob/v1.0.2/index.mjs#L78">`collect :: Any? -⁠> ReactComponent -⁠> ReactComponent`</a>
 
 Decorates a component with collection capabilities. Decorated components
 must have a [`Collector`](#Collector) as one of their ancestors.
@@ -58,7 +59,7 @@ import {MyComponent} from './my-component';
 export default collect ({message: 'Hello!'}) (MyComponent);
 ```
 
-#### <a name="Collector" href="https://github.com/wearereasonablepeople/react-collect/blob/v1.0.1/index.mjs#L130">`Collector :: ReactComponent`</a>
+#### <a name="Collector" href="https://github.com/wearereasonablepeople/react-collect/blob/v1.0.2/index.mjs#L131">`Collector :: ReactComponent`</a>
 
 This component wraps your tree and collects the items from all child
 components that have been decorated with [`collect`](#collect).
