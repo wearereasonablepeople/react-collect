@@ -1,6 +1,7 @@
 //. # React Collect
 //.
 //. [![Build Status](https://travis-ci.com/wearereasonablepeople/react-collect.svg?branch=master)](https://travis-ci.com/wearereasonablepeople/react-collect)
+//. [![Greenkeeper Enabled](https://badges.greenkeeper.io/wearereasonablepeople/react-collect.svg)](https://greenkeeper.io/)
 //.
 //. Allows the top of your render-tree to collect information from elements
 //. in the sub-tree. Whenever the tree rerenders, the collection of information
