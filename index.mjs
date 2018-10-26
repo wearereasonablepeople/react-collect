@@ -42,7 +42,7 @@ import React from 'react';
 
 var Component = React.Component;
 var createElement = React.createElement;
-var Consumer = React.createContext ();
+var Context = React.createContext ();
 
 // identity :: a -> a
 export function identity(x) {
@@ -116,7 +116,7 @@ export function collect(item) {
     CollectorManager.displayName = 'CollectorManager(' + name + ')';
 
     function Collecting(xs) {
-      return createElement (Consumer, {}, function(ys) {
+      return createElement (Context.Consumer, {}, function(ys) {
         return createElement (CollectorManager, Object.assign ({}, xs, ys));
       });
     }
@@ -200,7 +200,7 @@ Collector.prototype.componentWillUnmount = function() {
 
 Collector.prototype.render = function() {
   return createElement (
-    Consumer.Provider,
+    Context.Provider,
     {value: {
       collect: this.collect.bind (this),
       uncollect: this.uncollect.bind (this)

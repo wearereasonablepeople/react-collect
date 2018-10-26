@@ -33,7 +33,7 @@
   "devDependencies": {
     "coveralls": "^3.0.2",
     "esm": "^3.0.68",
-    "nyc": "^12.0.2",
+    "nyc": "^13.1.0",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-test-renderer": "^16.4.1",
@@ -42,6 +42,6 @@
     "sanctuary-scripts": "^2.0.0",
     "sanctuary-show": "^1.0.0",
     "sanctuary-type-classes": "^9.0.0",
-    "sinon": "^6.1.3"
+    "sinon": "^7.1.0"
   }
 }
