@@ -33,7 +33,7 @@
   "devDependencies": {
     "coveralls": "^3.0.2",
     "esm": "^3.0.68",
-    "nyc": "^12.0.2",
+    "nyc": "^13.1.0",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-test-renderer": "^16.4.1",
