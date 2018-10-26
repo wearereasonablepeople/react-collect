@@ -1,6 +1,6 @@
 {
   "name": "react-collect",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Collect information spread across a rendered React tree",
   "main": "index",
   "module": "index.mjs",
