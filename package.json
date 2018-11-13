@@ -35,7 +35,7 @@
     "esm": "^3.0.68",
     "nyc": "^13.1.0",
     "prop-types": "^15.6.2",
-    "react": "^16.4.1",
+    "react": "^16.6.2",
     "react-test-renderer": "^16.4.1",
     "redux": "^4.0.0",
     "rollup": "^0.67.0",
