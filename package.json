@@ -33,13 +33,12 @@
   "devDependencies": {
     "coveralls": "^3.0.2",
     "esm": "^3.0.68",
-    "nyc": "^13.1.0",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-test-renderer": "^16.4.1",
     "redux": "^4.0.0",
     "rollup": "^1.0.0",
-    "sanctuary-scripts": "^2.0.0",
+    "sanctuary-scripts": "^3.2.0",
     "sanctuary-show": "^1.0.0",
     "sanctuary-type-classes": "^11.0.0",
     "sinon": "^7.1.0"

@@ -87,7 +87,7 @@ export function createBaseCollectionManager(item) {
 //. Alternatively, for more control, you can manually use the `collect` and
 //. `uncollect` functions that are given to the decorated component as props.
 //.
-//. ```js
+//. ```jsx
 //. import {collect} from 'react-collect';
 //. import {MyComponent} from './my-component';
 //.
